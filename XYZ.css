@@ -1,7 +1,9 @@
 /*div{
 	border: 1px solid black;
 }*/
-
+a{
+	color:white;
+}
 h1{
 	font-size:10vw;
 }
@@ -30,7 +32,7 @@ body{
 	display:block;
 	margin:auto;
 }
-/*.circle2{
+.circle2{
 	background-color:#d8d8d8;
 	background-image: url(https://media.freestocktextures.com/cache/a8/de/a8ded350b50a82eed7a82b740b9e390a.jpg);
 	height:40px;
@@ -38,7 +40,7 @@ body{
 	border-radius:75%;
 	display:block;
 	margin:auto;
-} */
+}
 .bottom{
 	height:25px;
 	/*background-color:black;*/
@@ -59,7 +61,7 @@ body{
 
 }
 
-@media(max-width:750px){
+@media(max-width:768px){
 
 #A #B #C #D #E{ 
 		display:block;

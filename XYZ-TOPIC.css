@@ -1,5 +1,9 @@
-div{
+/*div{
 	border: 1px solid black;
+}*/
+
+a{
+	color:white;
 }
 
 h1{
@@ -38,11 +42,18 @@ body{
 	height:40px;
 	width:40px;
 	border-radius:75%;
-	float:left;
+	
+	margin:auto;
 }
-
-
-
+#genX{
+	background-color:#e0af95;
+}
+#genY{
+	background-color:#dd9d7b;
+}
+#genZ{
+	background-color:#e58958;
+}
 
 .bottom{
 	height:25px;
@@ -63,8 +74,10 @@ body{
 	background-color:#ff9760;
 
 }
-
-@media(max-width:750px){
+#annoying{
+	display:none;
+}
+@media(max-width:768px){
 
 #storyA #storyB #storyC{ 
 		display:block;
@@ -83,13 +96,13 @@ body{
 h5{
 	font-size:5vw;
 }
-.circle{
+/*.circle{
 	visibility:hidden;
 	height:150px;
 	width:150px;
 	border-radius:75%;
 	display:none;
-	margin:auto;
+	margin:auto;*/
 }
 .circle2{
 	float:center;

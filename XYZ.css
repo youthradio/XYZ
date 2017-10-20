@@ -1,0 +1,80 @@
+/*div{
+	border: 1px solid black;
+}*/
+
+h1{
+	font-size:10vw;
+}
+h5{
+	font-size:3vw;
+}
+
+body{
+	background-color:#345E90;
+    color:white;
+}
+.row{
+	height:100%;
+}
+.btn{
+	border-radius:10px;
+	vertical-align:middle;
+	background-color:black;
+}
+.circle{
+	background-color:#d8d8d8;
+	/*background-image: url(https://media.freestocktextures.com/cache/a8/de/a8ded350b50a82eed7a82b740b9e390a.jpg);*/
+	height:150px;
+	width:150px;
+	border-radius:75%;
+	display:block;
+	margin:auto;
+}
+/*.circle2{
+	background-color:#d8d8d8;
+	background-image: url(https://media.freestocktextures.com/cache/a8/de/a8ded350b50a82eed7a82b740b9e390a.jpg);
+	height:40px;
+	width:40px;
+	border-radius:75%;
+	display:block;
+	margin:auto;
+} */
+.bottom{
+	height:25px;
+	/*background-color:black;*/
+}
+.stories{
+	height:50px;
+}
+#storyA{
+	background-color:#ffc7aa;
+
+}
+#storyB{
+	background-color:#ffb48d;
+
+}
+#storyC{
+	background-color:#ff9760;
+
+}
+
+@media(max-width:750px){
+
+#A #B #C #D #E{ 
+		display:block;
+		float:none;
+		width:100%;
+
+}
+#GENXYZ{
+	font-size:20vw;
+}
+h5{
+	font-size:5vw;
+}
+/*.img-fluid{
+	width:50%;
+	height:100%;
+}*/
+}

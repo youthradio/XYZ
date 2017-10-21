@@ -16,7 +16,7 @@ h5{
 }
 
 body{
-	background-color:#345E90;
+	background-color:#2E7AAE;
     color:white;
 }
 .row{
@@ -28,7 +28,7 @@ body{
 	background-color:black;
 }
 .circle{
-	background-color:#d8d8d8;
+	/*background-color:#E3FF99; */
 	/*background-image: url(https://media.freestocktextures.com/cache/a8/de/a8ded350b50a82eed7a82b740b9e390a.jpg);*/
 	height:150px;
 	width:150px;
@@ -36,15 +36,49 @@ body{
 	display:block;
 	margin:auto;
 }
-.circle2{
-	background-color:#d8d8d8;
-	background-image: url(https://media.freestocktextures.com/cache/a8/de/a8ded350b50a82eed7a82b740b9e390a.jpg);
-	height:40px;
-	width:40px;
-	border-radius:75%;
-	display:block;
-	margin:auto;
+
+
+#A{
+	background-color: #E3FF99 ;
 }
+
+.a{
+	color: #E3FF99 ;
+}
+
+
+#B{
+	background-color: #AAFF99;
+}
+
+.b{
+	color: #AAFF99;
+}
+
+#C{
+	background-color: #00E0C4;
+}
+
+.c{
+	color: #00E0C4;
+}
+
+#D{
+	background-color: #B084CC;
+}
+
+.d{
+	color: #B084CC;
+}
+
+#E{
+	background-color:#7B6DE6 ;
+}
+.e{
+
+	color:#7B6DE6 ;
+}
+
 .bottom{
 	height:25px;
 	/*background-color:black;*/
@@ -73,6 +107,28 @@ body{
 		width:100%;
 
 }
+
+#A{
+	background-color: #E3FF99 ;
+}
+
+#B{
+	background-color: #AAFF99;
+}
+
+#C{
+	background-color: #00E0C4;
+}
+
+#D{
+	background-color: #B084CC;
+}
+
+#E{
+	background-color:#7B6DE6 ;
+}
+
+
 #GENXYZ{
 	font-size:20vw;
 }

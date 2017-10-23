@@ -37,6 +37,9 @@ body{
 	margin:auto;
 }
 
+.clear{
+	opacity: 0.5;
+}
 
 #A{
 	background-color: #E3FF99 ;

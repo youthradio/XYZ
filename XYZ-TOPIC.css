@@ -45,7 +45,46 @@ body{
 	
 	margin:auto;
 }
+#A{
+	background-color: #E3FF99 ;
+}
 
+.a{
+	color: #E3FF99 ;
+}
+
+
+#B{
+	background-color: #AAFF99;
+}
+
+.b{
+	color: #AAFF99;
+}
+
+#C{
+	background-color: #00E0C4;
+}
+
+.c{
+	color: #00E0C4;
+}
+
+#D{
+	background-color: #B084CC;
+}
+
+.d{
+	color: #B084CC;
+}
+
+#E{
+	background-color:#7B6DE6 ;
+}
+.e{
+
+	color:#7B6DE6 ;
+}
 #genX{
 	background-color:#e0af95;
 }

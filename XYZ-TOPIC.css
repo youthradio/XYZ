@@ -1,6 +1,6 @@
-/*div{
+/* div{
 	border: 1px solid black;
-}*/
+} */
 
 a{
 	color:white;
@@ -51,7 +51,7 @@ body{
 }
 
 .X{
-	background-color:grey;
+	background-color: rgba(155,155,155,0.4);
 	color:white;
 	height: 100%;
 }
@@ -72,24 +72,53 @@ body{
 	height:50px;
 }
 #storyA{
-	background-color:#ffc7aa;
+	background-color:#00E0C4;
 
 }
 #storyB{
-	background-color:#ffb48d;
+	background-color:#00D3Ba;
 
 }
 #storyC{
-	background-color:#ff9760;
+	background-color:#12c0ac;
 
 }
 #annoying{
 	display:none;
 }
 
+.youthDesk{
+	display: inherit;
+}
+.youthSmall{
+	display: none;
+}
 
+.titleDesk{
+	display: inline;
+}
+
+.titleMobile{
+	display: none;
+}
 
 @media(max-width:768px){
+
+.youthDesk{
+	display: none;
+}
+
+.youthSmall{
+	display: inline;
+}
+
+.titleDesk{
+	display: none;
+}
+
+.titleMobile{
+	display: inline;
+}
 
 #storyA #storyB #storyC{ 
 		display:block;

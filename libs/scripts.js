@@ -1,6 +1,6 @@
 //Parse CSV file and use header as fild names
 function initParser() {
-  var data;
+  var topics = {};
   var self = this;
   this.loadData = function() {
     Papa.parse("data/xyz.csv", {
@@ -14,12 +14,19 @@ function initParser() {
       }
     });
   };
-  this.renderData = function(id) {
-    console.log(data[id]);
+  this.renderData = function(hash) {
+    console.log(topics[hash]);
   };
-  var dataLoaded = function(d) {
-    data = d;
-    self.renderData(1);
+  this.getData = function() {
+    return topics;
+  };
+  var dataLoaded = function(results) {
+    results.forEach(function(row){
+        var key = row.topic.trim();
+        topics["#"+ key] = row;
+    });
+    var hash = window.location.hash;
+    self.renderData(hash);
   }
 
 }
@@ -28,8 +35,17 @@ csvParser.loadData();
 
 
 $('#A').on('click', function (e) {
-  csvParser.renderData(0);
+  csvParser.renderData("#politics");
 })
 $('#B').on('click', function (e) {
-  csvParser.renderData(1);
+  csvParser.renderData("#technology");
+})
+$('#C').on('click', function (e) {
+  csvParser.renderData("#fashion");
+})
+$('#D').on('click', function (e) {
+  csvParser.renderData("#slang");
+})
+$('#E').on('click', function (e) {
+  csvParser.renderData("#music / culture");
 })

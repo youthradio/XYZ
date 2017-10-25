@@ -36,16 +36,21 @@ csvParser.loadData();
 
 $('#A').on('click', function (e) {
   csvParser.renderData("#politics");
+  window.location = "#politics";
 })
 $('#B').on('click', function (e) {
   csvParser.renderData("#technology");
+  window.location = "#technology";
 })
 $('#C').on('click', function (e) {
   csvParser.renderData("#fashion");
+  window.location = "#fashion";
 })
 $('#D').on('click', function (e) {
   csvParser.renderData("#slang");
+  window.location = "#slang";
 })
 $('#E').on('click', function (e) {
   csvParser.renderData("#music / culture");
+  window.location = "#music / culture";
 })

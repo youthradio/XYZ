@@ -1,6 +1,29 @@
 /*div{
 	border: 1px solid black;
 }*/
+
+
+/* Link colors */
+.politics:hover {
+	color: #E3FF99;
+}
+
+.technology:hover {
+	color: #AAFF99;
+}
+
+.fashion:hover {
+	color: #00E0C4;
+}
+
+.slang:hover {
+	color: #B084CC;
+}
+
+.culture:hover {
+	color: #7B6DE6;
+}
+
 a{
 	color:white;
 
@@ -43,6 +66,26 @@ body{
 
 #A{
 	background-color: #E3FF99 ;
+}
+
+#A:hover{
+	background-image: url(http://www.powerpointhintergrund.com/uploads/yellow-texture-image-0.png);
+}
+
+#B:hover{
+	background-image: url(https://d2d00szk9na1qq.cloudfront.net/Product/3dd8ea48-7a92-41a0-80c3-b33b103afada/Images/Large_0355484.jpg);
+}
+
+#C:hover{
+	background-image: url(https://orig00.deviantart.net/7496/f/2009/052/f/b/plain_texture___sea_blue___by_pippy_stock.jpg);
+}
+
+#D:hover{
+	background-image: url(https://images.freecreatives.com/wp-content/uploads/2015/04/lavender-paper-texture.jpg);
+}
+
+#E:hover{
+	background-image: url(https://i.pinimg.com/originals/01/fc/e0/01fce0562f8a94a727781d572619c4da.jpg);
 }
 
 .a{

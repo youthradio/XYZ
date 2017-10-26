@@ -3,6 +3,7 @@
 	<head>
 		<title>GENXYZ Topic</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<link rel="stylesheet" href="XYZ-TOPIC.css">
 		<meta name="viewport" content="width=device-width, intial-scale=1.0">
 	</head>
@@ -34,19 +35,19 @@
 							</h4></a></div>
 					</div>
 					<div class="ml-1">
-						<div id="A"class="circle2"> </div>
+						<div onclick="pageOne()" id="A"class="circle2"> </div>
 					</div>
 					<div class="ml-1">
-						<div id="B"class="circle2 "> </div>
+						<div onclick="pageTwo()" id="B"class="circle2"> </div>
 					</div>
 					<div class="ml-1">
-						<div id="C" class="circle2 "> </div>
+						<div onclick="pageThree()" id="C" class="circle2"> </div>
 					</div>
 					<div class="ml-1">
-						<div id="D" class="circle2 "> </div>
+						<div onclick="pageFour()" id="D" class="circle2"> </div>
 					</div>
 					<div class="ml-1">
-						<div id="E" class="circle2 "> </div>
+						<div onclick="pageFive()" id="E" class="circle2"> </div>
 					</div>
 
 				</span>
@@ -127,8 +128,8 @@
 			<!--Topic-->
 			<div class="row">
 				<div class="col-md-8 col-12">
-					<h1>Topic</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<h1 id="topic"></h1>
+					<p id="description"></p>
 					 </div>
 				<div class="col-md-4 col-12"> </div>
 
@@ -137,13 +138,15 @@
 			<!--Stories-->
 			<div class="row">
 				<div class="col-md-4 col-12" id="storyA">
-					<div class="circle my-3"></div>
+					<div class="circle my-3">
+						<img id="genXIMG" class="circle" src=""></img></div>
 
+					
 					<div class="text-center">
-						<h6>Title For Story</h6>
+						<h6 id="genXtitle"></h6>
 						<audio controls></audio>
 					</div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p id="genXDesc"></p>
 					
 					<div class="row">
 						<div class="col-12 X">
@@ -152,12 +155,14 @@
 					</div>
 				</div>
 				<div class="col-md-4 col-12" id="storyB">
-					<div class="circle my-3"></div>
+					<div class="circle my-3">
+					<img id="genYIMG" class="circle" src=""></img>
+				</div>
 					<div class="text-center">
-						<h6>Title For Story</h6>
+						<h6 id="genYtitle"></h6>
 						<audio controls></audio>
 					</div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p id="genYDesc"></p>
 					<div  class="row  ">
 						<div class="col-12 X">
 						<h5 class="pt-1">Generation Y</h5>
@@ -165,12 +170,14 @@
 					</div>
 				</div>
 				<div class="col-md-4 col-12" id="storyC">
-					<div class="circle my-3"></div>
+					<div class="circle my-3">
+					<img id="genZIMG" class="circle" src=""></img>
+				</div>
 					<div class="text-center">
-						<h6>Title For Story</h6>
+						<h6 id="genZtitle">Title For Story</h6>
 						<audio controls></audio>
 					</div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p id="genZDesc"></p>
 					<div  class="row  ">
 						<div class="col-12 X">
 						<h5 class="pt-1">Generation Z</h5>
@@ -189,5 +196,12 @@
 			<span class="row p-4"></span>
 
 		</div>
+
+		<!--JS files, their placement is important! -->
+		
+		<script src="redirect.js"></script>
+		<script src="articledata.js"></script>
+		<script src="main.js"></script>
+
 	</body>
 </html>

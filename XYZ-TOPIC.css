@@ -12,6 +12,9 @@ h1{
 	font-size:10vw;
 }
 
+audio {
+	width: 30%;
+}
 
 body{
 	background-color:#345E90;
@@ -25,6 +28,16 @@ body{
 	border-radius:10px;
 	vertical-align:middle;
 	background-color:black;
+}
+
+.stick-to-bottom-row{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.Desc {
+	padding-bottom: 23px;
 }
 
 .circle{

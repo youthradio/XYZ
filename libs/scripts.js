@@ -75,4 +75,5 @@ function updateContent(data) {
   document.getElementById("storyA").style.backgroundColor = data["X bg color "];
   document.getElementById("storyB").style.backgroundColor = data["Y bg color "];
   document.getElementById("storyC").style.backgroundColor = data["Z bg color "];
+  console.log()
 }

@@ -23,6 +23,9 @@ Object.values(genZIMG);
 Object.values(genXDesc);
 Object.values(genYDesc);
 Object.values(genZDesc);
+Object.values(genXDate);
+Object.values(genYDate);
+Object.values(genZDate);
 
 //This takes all the data from articledata.js and turns their values into arrays, letting us swap data on a page by page basis, there may be a cleaner way to do this..
 
@@ -64,6 +67,11 @@ function pageOne() {
 	document.getElementById("storyB").style.backgroundColor = genYColors.P1;
 	document.getElementById("storyC").style.backgroundColor = genZColors.P1;
 
+	document.getElementById("XYear").innerHTML = genXDate.P1;
+	document.getElementById("YYear").innerHTML = genYDate.P1;
+	document.getElementById("ZYear").innerHTML = genZDate.P1;
+
+
 }
 
 function pageTwo() {
@@ -85,6 +93,10 @@ function pageTwo() {
 	document.getElementById("storyA").style.backgroundColor = genXColors.P2;
 	document.getElementById("storyB").style.backgroundColor = genYColors.P2;
 	document.getElementById("storyC").style.backgroundColor = genZColors.P2;
+
+	document.getElementById("XYear").innerHTML = genXDate.P2;
+	document.getElementById("YYear").innerHTML = genYDate.P2;
+	document.getElementById("ZYear").innerHTML = genZDate.P2;
 }
 
 function pageThree() {
@@ -106,6 +118,10 @@ function pageThree() {
 	document.getElementById("storyA").style.backgroundColor = genXColors.P3;
 	document.getElementById("storyB").style.backgroundColor = genYColors.P3;
 	document.getElementById("storyC").style.backgroundColor = genZColors.P3;
+
+	document.getElementById("XYear").innerHTML = genXDate.P3;
+	document.getElementById("YYear").innerHTML = genYDate.P3;
+	document.getElementById("ZYear").innerHTML = genZDate.P3;
 }
 
 function pageFour() {
@@ -127,6 +143,10 @@ function pageFour() {
 	document.getElementById("storyA").style.backgroundColor = genXColors.P4;
 	document.getElementById("storyB").style.backgroundColor = genYColors.P4;
 	document.getElementById("storyC").style.backgroundColor = genZColors.P4;
+
+	document.getElementById("XYear").innerHTML = genXDate.P4;
+	document.getElementById("YYear").innerHTML = genYDate.P4;
+	document.getElementById("ZYear").innerHTML = genZDate.P4;
 }
 
 function pageFive() {
@@ -148,6 +168,10 @@ function pageFive() {
 	document.getElementById("storyA").style.backgroundColor = genXColors.P5;
 	document.getElementById("storyB").style.backgroundColor = genYColors.P5;
 	document.getElementById("storyC").style.backgroundColor = genZColors.P5;
+
+	document.getElementById("XYear").innerHTML = genXDate.P5;
+	document.getElementById("YYear").innerHTML = genYDate.P5;
+	document.getElementById("ZYear").innerHTML = genZDate.P5;
 }
 
 //This is where all of the content gets written and overwritten on the html page through onClick functions.

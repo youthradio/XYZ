@@ -34,24 +34,24 @@ var topicColors = {
 }
 
 var genXColors = {
-	P1:"#E3FF99",
-	P2:"#AAFF99",
+	P1:"#cce589",
+	P2:"#9CEA8C",
 	P3:"#00E0C4",
 	P4:"#B084CC",
 	P5:"#7B6DE6",
 }
 
 var genYColors = {
-	P1:"#CCE589",
-	P2:"#9CEA8C",
+	P1:"#B4CA79",
+	P2:"#8ED37E",
 	P3:"#00D3BA",
 	P4:"#A27ABC",
 	P5:"#7467DB",
 }
 
 var genZColors = {
-	P1:"#B4CA79",
-	P2:"#8ED37E",
+	P1:"#9DB069",
+	P2:"#7DBC71",
 	P3:"#17C0AC",
 	P4:"#946FAB",
 	P5:"#6C5FCC",
@@ -134,6 +134,34 @@ var genZIMG = {
 	P4:"https://www.w3schools.com/html/img_girl.jpg",
 	P5:"https://www.w3schools.com/html/img_girl.jpg",
 }
+
+//Dates
+
+var genXDate = {
+	P1:"2008",
+	P2:"null",
+	P3:"null",
+	P4:"null",
+	P5:"null",
+}
+
+var genYDate = {
+	P1:"2012",
+	P2:"null",
+	P3:"null",
+	P4:"null",
+	P5:"null",
+}
+
+
+var genZDate = {
+	P1:"2017",
+	P2:"null",
+	P3:"null",
+	P4:"null",
+	P5:"null",
+}
+
 
 //Article descriptions
 

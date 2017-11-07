@@ -174,6 +174,15 @@ function pageFive() {
 	document.getElementById("ZYear").innerHTML = genZDate.P5;
 }
 
+var surprise = [
+	pageOne, pageTwo,
+	pageThree, pageFour,
+	pageFive];
+
+function surpriseMe() {
+	surprise[Math.floor(Math.random() * surprise.length)]();
+}
+
 //This is where all of the content gets written and overwritten on the html page through onClick functions.
 
 //debugging

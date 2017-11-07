@@ -71,23 +71,28 @@ body{
 }
 
 #A:hover{
-	background-image: url(http://www.powerpointhintergrund.com/uploads/yellow-texture-image-0.png);
+	background-image: url(img/p1.png);
+	background-size: cover; 
 }
 
 #B:hover{
-	background-image: url(https://d2d00szk9na1qq.cloudfront.net/Product/3dd8ea48-7a92-41a0-80c3-b33b103afada/Images/Large_0355484.jpg);
+	background-image: url(img/t2.png);
+	background-size: cover; 
 }
 
 #C:hover{
-	background-image: url(https://orig00.deviantart.net/7496/f/2009/052/f/b/plain_texture___sea_blue___by_pippy_stock.jpg);
+	background-image: url(img/f1.png);
+	background-size: cover; 
 }
 
 #D:hover{
-	background-image: url(https://images.freecreatives.com/wp-content/uploads/2015/04/lavender-paper-texture.jpg);
+	background-image: url(img/s1.png);
+	background-size: cover; 
 }
 
 #E:hover{
 	background-image: url(https://i.pinimg.com/originals/01/fc/e0/01fce0562f8a94a727781d572619c4da.jpg);
+	background-size: cover; 
 }
 
 .a{
@@ -155,27 +160,6 @@ body{
 		width:100%;
 
 }
-
-#A{
-	background-color: #E3FF99 ;
-}
-
-#B{
-	background-color: #AAFF99;
-}
-
-#C{
-	background-color: #00E0C4;
-}
-
-#D{
-	background-color: #B084CC;
-}
-
-#E{
-	background-color:#7B6DE6 ;
-}
-
 
 #GENXYZ{
 	font-size:20vw;

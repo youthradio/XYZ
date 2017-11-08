@@ -2,6 +2,10 @@
 	border: 1px solid black;
 } */
 
+p{
+	font-size: 18px;
+}
+
 a{
 	color:white;
 }
@@ -9,7 +13,13 @@ a:hover {
 	color:pink;
 }
 h1{
-	font-size:10vw;
+	font-size:8vh;
+}
+
+h2{
+	font-size:26px;
+	font-weight:lighter;
+
 }
 
 audio {
@@ -41,10 +51,10 @@ body{
 }
 
 .circle{
-	background-color:#d8d8d8;
+	background-color:#fff;
 	/*background-image: url(https://media.freestocktextures.com/cache/a8/de/a8ded350b50a82eed7a82b740b9e390a.jpg);*/
-	height:150px;
-	width:150px;
+	height:225px;
+	width:225px;
 	border-radius:75%;
 	display:block;
 	margin:auto;
@@ -205,3 +215,4 @@ h5{
 	height:100%;
 }*/
 }
+

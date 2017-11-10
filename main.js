@@ -63,6 +63,10 @@ function pageOne() {
 	document.getElementById("genYIMG").src = genYIMG.P1;
 	document.getElementById("genZIMG").src = genZIMG.P1;
 
+	document.getElementById("audioX").src = genXAudio.P1;
+	document.getElementById("audioY").src = genYAudio.P1;
+	document.getElementById("audioZ").src = genZAudio.P1;
+
 	document.getElementById("storyA").style.backgroundColor = genXColors.P1;
 	document.getElementById("storyB").style.backgroundColor = genYColors.P1;
 	document.getElementById("storyC").style.backgroundColor = genZColors.P1;
@@ -90,6 +94,10 @@ function pageTwo() {
 	document.getElementById("genYIMG").src = genYIMG.P2;
 	document.getElementById("genZIMG").src = genZIMG.P2;
 
+	document.getElementById("audioX").src = genXAudio.P2;
+	document.getElementById("audioY").src = genYAudio.P2;
+	document.getElementById("audioZ").src = genZAudio.P2;
+
 	document.getElementById("storyA").style.backgroundColor = genXColors.P2;
 	document.getElementById("storyB").style.backgroundColor = genYColors.P2;
 	document.getElementById("storyC").style.backgroundColor = genZColors.P2;
@@ -114,6 +122,10 @@ function pageThree() {
 	document.getElementById("genXIMG").src = genXIMG.P3;
 	document.getElementById("genYIMG").src = genYIMG.P3;
 	document.getElementById("genZIMG").src = genZIMG.P3;
+
+	document.getElementById("audioX").src = genXAudio.P3;
+	document.getElementById("audioY").src = genYAudio.P3;
+	document.getElementById("audioZ").src = genZAudio.P3;
 
 	document.getElementById("storyA").style.backgroundColor = genXColors.P3;
 	document.getElementById("storyB").style.backgroundColor = genYColors.P3;
@@ -140,6 +152,10 @@ function pageFour() {
 	document.getElementById("genYIMG").src = genYIMG.P4;
 	document.getElementById("genZIMG").src = genZIMG.P4;
 
+	document.getElementById("audioX").src = genXAudio.P4;
+	document.getElementById("audioY").src = genYAudio.P4;
+	document.getElementById("audioZ").src = genZAudio.P4;
+
 	document.getElementById("storyA").style.backgroundColor = genXColors.P4;
 	document.getElementById("storyB").style.backgroundColor = genYColors.P4;
 	document.getElementById("storyC").style.backgroundColor = genZColors.P4;
@@ -164,6 +180,10 @@ function pageFive() {
 	document.getElementById("genXIMG").src = genXIMG.P5;
 	document.getElementById("genYIMG").src = genYIMG.P5;
 	document.getElementById("genZIMG").src = genZIMG.P5;
+
+	document.getElementById("audioX").src = genXAudio.P5;
+	document.getElementById("audioY").src = genYAudio.P5;
+	document.getElementById("audioZ").src = genZAudio.P5;
 
 	document.getElementById("storyA").style.backgroundColor = genXColors.P5;
 	document.getElementById("storyB").style.backgroundColor = genYColors.P5;

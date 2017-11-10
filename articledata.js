@@ -35,26 +35,26 @@ var topicColors = {
 
 var genXColors = {
 	P1:"#cce589",
-	P2:"#9CEA8C",
-	P3:"#00E0C4",
-	P4:"#B084CC",
-	P5:"#7B6DE6",
+	P2:"#7975e5", //technology
+	P3:"#69ecd3",
+	P4:"#b691d7",
+	P5:"#9CEA8C",
 }
 
 var genYColors = {
 	P1:"#B4CA79",
-	P2:"#8ED37E",
+	P2:"#7467DB",
 	P3:"#00D3BA",
 	P4:"#A27ABC",
-	P5:"#7467DB",
+	P5:"#8ED37E",
 }
 
 var genZColors = {
 	P1:"#9DB069",
-	P2:"#7DBC71",
+	P2:"#6C5FCC",
 	P3:"#17C0AC",
 	P4:"#946FAB",
-	P5:"#6C5FCC",
+	P5:"#7DBC71",
 }
 
 //Article titles
@@ -86,53 +86,53 @@ var genZTitles = {
 //Audio files
 
 var genXAudio = {
-	P1:"https://www.w3schools.com/html/horse.mp3",
-	P2:"https://www.w3schools.com/html/horse.mp3",
-	P3:"https://www.w3schools.com/html/horse.mp3",
-	P4:"https://www.w3schools.com/html/horse.mp3",
-	P5:"https://www.w3schools.com/html/horse.mp3",
+	P1:"audio/xAudio/slang.mp3", //RENAME ASAP!!
+	P2:"audio/xAudio/tech.mp3",  //RENAME ASAP!!
+	P3:"audio/xAudio/fashion.mp3",
+	P4:"audio/xAudio/politics.mp3",
+	P5:"audio/xAudio/music.mp3", //RENAME ASAP!!
 }
 
 var genYAudio = {
-	P1:"https://www.w3schools.com/html/horse.mp3",
-	P2:"https://www.w3schools.com/html/horse.mp3",
-	P3:"https://www.w3schools.com/html/horse.mp3",
-	P4:"https://www.w3schools.com/html/horse.mp3",
-	P5:"https://www.w3schools.com/html/horse.mp3",
+	P1:"audio/yAudio/politics.mp3",
+	P2:"audio/yAudio/music.mp3",
+	P3:"audio/yAudio/fashion.mp3",
+	P4:"audio/yAudio/slang.mp3",
+	P5:"audio/yAudio/tech.mp3",
 }
 
 var genZAudio = {
-	P1:"https://www.w3schools.com/html/horse.mp3",
-	P2:"https://www.w3schools.com/html/horse.mp3",
-	P3:"https://www.w3schools.com/html/horse.mp3",
-	P4:"https://www.w3schools.com/html/horse.mp3",
-	P5:"https://www.w3schools.com/html/horse.mp3",
+	P1:"audio/zAudio/politics.mp3",
+	P2:"audio/zAudio/music.mp3",
+	P3:"audio/zAudio/fashion.mp3",
+	P4:"audio/zAudio/slang.mp3",
+	P5:"audio/zAudio/tech.mp3",
 }
 
 //Image files
 
 var genXIMG = {
-	P1:"img/p2.png",
-	P2:"https://www.w3schools.com/html/img_girl.jpg",
-	P3:"https://www.w3schools.com/html/img_girl.jpg",
-	P4:"https://www.w3schools.com/html/img_girl.jpg",
-	P5:"https://www.w3schools.com/html/img_girl.jpg",
+	P1:"img/p1.png",
+	P2:"img/new/Tech/tech1.png",
+	P3:"img/f2 copy.png",
+	P4:"img/new/Slang/Slang1.png",
+	P5:"img/new/Music/music1.png",
 }
 
 var genYIMG = {
-	P1:"img/p1.png",
-	P2:"https://www.w3schools.com/html/img_girl.jpg",
-	P3:"https://www.w3schools.com/html/img_girl.jpg",
-	P4:"https://www.w3schools.com/html/img_girl.jpg",
-	P5:"https://www.w3schools.com/html/img_girl.jpg",
+	P1:"img/p2.png",
+	P2:"img/new/Tech/tech2.png",
+	P3:"img/new/Fashion/Fashion2.png",
+	P4:"img/new/Slang/Slang2.png",
+	P5:"img/new/Music/music2.png",
 }
 
 var genZIMG = {
 	P1:"img/p3.png",
-	P2:"https://www.w3schools.com/html/img_girl.jpg",
-	P3:"https://www.w3schools.com/html/img_girl.jpg",
-	P4:"https://www.w3schools.com/html/img_girl.jpg",
-	P5:"https://www.w3schools.com/html/img_girl.jpg",
+	P2:"img/new/Tech/tech3.png",
+	P3:"img/new/Fashion/Fashion3.png",
+	P4:"img/new/Slang/Slang3.png",
+	P5:"img/new/Music/music3.png",
 }
 
 //Dates

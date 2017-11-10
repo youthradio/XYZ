@@ -9,7 +9,7 @@
 }
 
 .technology:hover {
-	color: #AAFF99;
+	color: #7B6DE6;
 }
 
 .fashion:hover {
@@ -21,15 +21,12 @@
 }
 
 .culture:hover {
-	color: #7B6DE6;
+	color: #AAFF99;
 }
 
 a{
 	color:white;
 
-}
-a:hover {
-	color:pink;
 }
 h1{
 	font-size:10vw;
@@ -55,8 +52,8 @@ body{
 .circle{
 	/*background-color:#E3FF99; */
 	/*background-image: url(https://media.freestocktextures.com/cache/a8/de/a8ded350b50a82eed7a82b740b9e390a.jpg);*/
-	height:150px;
-	width:150px;
+	height:200px;
+	width:200px;
 	border-radius:75%;
 	display:block;
 	margin:auto;
@@ -66,42 +63,76 @@ body{
 	opacity: 0.5;
 }
 
-#A{
-	background-color: #E3FF99 ;
+.a-1:hover{
+	color: #E3FF99;
 }
 
-#A:hover{
-	background-image: url(img/p1.png);
+.a-2:hover{
+	color: #AAFF99;
+}
+
+.a-3:hover{
+	color: #00E0C4;
+}
+
+.a-4:hover{
+	color: #B084CC;
+}
+
+.a-5:hover{
+	color: #7B6DE6;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
+
+
+/* #A:hover{
+	background-image: url(img/Politics.gif);
 	background-size: cover; 
 }
 
 #B:hover{
-	background-image: url(img/t2.png);
+	background-image: url(img/Tech.gif);
 	background-size: cover; 
 }
 
 #C:hover{
-	background-image: url(img/f1.png);
+	background-image: url(img/Fashion.gif);
 	background-size: cover; 
 }
 
 #D:hover{
-	background-image: url(img/s1.png);
+	background-image: url(img/Slang.gif);
 	background-size: cover; 
 }
 
 #E:hover{
-	background-image: url(https://i.pinimg.com/originals/01/fc/e0/01fce0562f8a94a727781d572619c4da.jpg);
+	background-image: url(img/Music.gif);
 	background-size: cover; 
-}
+} */
 
 .a{
 	color: #E3FF99 ;
 }
 
+#A{
+
+	background-image:url(img/Politics.gif);
+	background-size: cover; 
+	background-color: #E3FF99 ;
+}
+
+
 
 #B{
-	background-color: #AAFF99;
+	background-color: #7B6DE6;
+	background-image: url(img/Tech.gif);
+	background-size: cover; 
+
 }
 
 .b{
@@ -110,6 +141,8 @@ body{
 
 #C{
 	background-color: #00E0C4;
+	background-image: url(img/Fashion.gif);
+	background-size: cover; 
 }
 
 .c{
@@ -118,6 +151,8 @@ body{
 
 #D{
 	background-color: #B084CC;
+	background-image: url(img/Slang.gif);
+	background-size: cover; 
 }
 
 .d{
@@ -125,7 +160,10 @@ body{
 }
 
 #E{
-	background-color:#7B6DE6 ;
+	background-color:#AAFF99 ;
+	background-image: url(img/Music.gif);
+	background-size: cover; 
+
 }
 .e{
 

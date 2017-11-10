@@ -51,13 +51,14 @@ body{
 }
 
 .circle{
-	background-color:#fff;
+	/*background-color:#fff;
 	/*background-image: url(https://media.freestocktextures.com/cache/a8/de/a8ded350b50a82eed7a82b740b9e390a.jpg);*/
 	height:225px;
 	width:225px;
-	border-radius:75%;
+	border-radius:65%;
 	display:block;
 	margin:auto;
+	border: 2px solid white;
 }
 .circle2{
 	background-color:#d8d8d8;
@@ -72,8 +73,10 @@ body{
 	background-color: #E3FF99 ;
 }
 
+
+
 #A:hover{
-	background-image: url(img/p1.png);
+	background-image: url(img/Politics.gif);
 	background-size: cover; 
 }
 
@@ -83,12 +86,12 @@ body{
 
 
 #B{
-	background-color: #AAFF99;
+	background-color: #7B6DE6;
 	
 }
 
 #B:hover{
-	background-image: url(img/t2.png);
+	background-image: url(img/Tech.gif);
 	background-size: cover; 
 }
 
@@ -102,7 +105,7 @@ body{
 }
 
 #C:hover{
-	background-image: url(img/f1.png);
+	background-image: url(img/Fashion.gif);
 	background-size: cover; 
 }
 
@@ -115,7 +118,7 @@ body{
 }
 
 #D:hover{
-	background-image: url(img/s1.png);
+	background-image: url(img/Slang.gif);
 	background-size: cover; 
 }
 
@@ -124,11 +127,14 @@ body{
 }
 
 #E{
-	background-color:#7B6DE6 ;
+	background-color:#AAFF99 ;
 
 }
 
 #E:hover{
+
+	background-image: url(img/Music.gif);
+	background-size: cover; 
 
 }
 
@@ -141,7 +147,7 @@ body{
 }
 
 .X{
-	background-color: rgba(103, 103, 103, 0.6);
+	background-color: rgba(103, 103, 103, 0.3);
 	color:white;
 	height: 100%;
 }

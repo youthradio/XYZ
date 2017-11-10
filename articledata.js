@@ -114,7 +114,7 @@ var genZAudio = {
 var genXIMG = {
 	P1:"img/p1.png",
 	P2:"img/new/Tech/tech1.png",
-	P3:"img/f2 copy.png",
+	P3:"img/new/Fashion/Fashion1.png",
 	P4:"img/new/Slang/Slang1.png",
 	P5:"img/new/Music/music1.png",
 }
@@ -124,7 +124,7 @@ var genYIMG = {
 	P2:"img/new/Tech/tech2.png",
 	P3:"img/new/Fashion/Fashion2.png",
 	P4:"img/new/Slang/Slang2.png",
-	P5:"img/new/Music/music2.png",
+	P5:"img/m2.png",
 }
 
 var genZIMG = {

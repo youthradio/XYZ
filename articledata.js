@@ -60,25 +60,25 @@ var genZColors = {
 //Article titles
 
 var genXTitles = {
-	P1:"Punks for Bush",
+	P1:"Punks For Bush",
 	P2:"A Video Game Addict Reviews The Sega Dreamcast",
 	P3:"Lose The Levis",
 	P4:"Slang Predictions For The Future",
-	P5:"Wanna be an MTV VJ?",
+	P5:"Wanna Be An MTV VJ?",
 }
 
 var genYTitles = {
 	P1:"Hope Is The New Rebellion",
-	P2:"Public is the new private",
-	P3:"One Teen's Fashion Plea: Stop Sagging",
+	P2:"Public Is The New Private",
+	P3:"Mismatching Is The New Matching",
 	P4:"The N-word: Slang Or Disrespect?",
-	P5:"Song of the Summer: Crazy",
+	P5:"Basketball Beef Spills Into Rap World",
 }
 
 var genZTitles = {
 	P1:"Donald Trump Takes Office",
 	P2:"Snapchat Sexting?",
-	P3:"Teens say looks can be liberating despite fashion police",
+	P3:"Teens Say Looks Can Be Liberating Despite Fashion Police",
 	P4:"What's The Meaning Of The Gun Emoji?",
 	P5:"Punks Are The New Mall Rats",
 }
@@ -112,7 +112,7 @@ var genZAudio = {
 //Image files
 
 var genXIMG = {
-	P1:"img/p1.png",
+	P1:"img/p4.png",
 	P2:"img/new/Tech/tech1.png",
 	P3:"img/new/Fashion/Fashion1.png",
 	P4:"img/new/Slang/Slang1.png",
@@ -148,7 +148,7 @@ var genXDate = {
 var genYDate = {
 	P1:"2008",
 	P2:"2008",
-	P3:"2005",
+	P3:"2008",
 	P4:"2007",
 	P5:"2006",
 }
@@ -162,6 +162,32 @@ var genZDate = {
 	P5:"2014",
 }
 
+//Links
+
+var genXLinks = {
+	P1:"http://www.npr.org/templates/story/story.php?storyId=3885263",
+	P2:"null",
+	P3:"null",
+	P4:"http://www.npr.org/templates/text/s.php?sId=1579620&m=1",
+	P5:"null",
+}
+
+var genYLinks = {
+	P1:"https://www.npr.org/templates/story/story.php?storyId=94066853",
+	P2:"http://www.npr.org/templates/story/story.php?storyId=93374338",
+	P3:"https://www.npr.org/templates/story/story.php?storyId=90907618",
+	P4:"http://www.npr.org/templates/story/story.php?storyId=11155621",
+	P5:"https://www.npr.org/templates/story/story.php?storyId=91489009",
+}
+
+var genZLinks = {
+	P1:"https://youthradio.org/journalism/podcasts/youth-radio-podcast-donald-trump-takes-office/",
+	P2:"https://youthradio.org/journalism/science/how-young-people-are-really-using-snapchat/",
+	P3:"https://youthradio.org/journalism/education/teens-say-looks-can-be-liberating-despite-fashion-police/",
+	P4:"https://youthradio.org/journalism/education/teens-use-the-gun-emoji-despite-potential-for-misunderstanding/",
+	P5:"http://www.npr.org/2014/08/13/338828404/in-stockton-calif-punks-are-the-new-mall-rats",
+}
+
 
 //Article descriptions
 
@@ -169,17 +195,17 @@ var genZDate = {
 var genXDesc = {
 	P1:"Who says conservatives can't be inclusive? At the 2004 Republican convention in NYC, Youth Radio found some punks with an appreciation for George W. himself.",
 	P2:"Its a step up from the N64, but will the Sega Dreamcast video game console last the test of time? This gamer review takes you back to simpler times.",
-	P3: "It's all about that button fly.” And according to one '90s teen, this classic jean brand was simply past its prime.",
+	P3:" <i>It's all about that button fly.</i> And according to one '90s teen, this classic jean brand was simply past its prime.",
 	P4:"High Schooler Sanovia Jackson rang in 2004 by talking with NPR host Melissa Block what slang phrases were in and out the new year.",
-	P5:"MTV was at the height of fashion and music… for the '90s. Youth Radio listened in on an MTV VJ audition in 1999.",
+	P5:"MTV was at the height of fashion and music... for the '90s. Youth Radio listened in on an MTV VJ audition in 1999.",
 }
 
 var genYDesc = {
 	P1:"Back in  2008, Senator Barack Obama was a Presidential hopeful running a fresh campaign based on hope. Hear young people at the Democratic National Convention react to that promise.",
 	P2:"The teen trend in 2008? Moving from email to Facebook wall posts. From the early days of social media receipts.",
-	P3:"Before skinny jeans were a thing, one Oakland teen was on a mission to get his friends to give up the sag.",
+	P3:"Forget matching your shirt color with your shoe hue. In 2008, it was all about knee-high rainbow socks and candy-colored hair extension.",
 	P4:"In 2007, NPR asked a bunch of people to weigh in on the n-word -- including this group of Bay Area teens.",
-	P5:"Before Gnarls Barkley's song became the tune you couldn't get out of your head, it was an underrated hit of the summer of 2006.",
+	P5:"The 2008 NBA finals pitted the Celtics against the Lakers. But off the court, the season's biggest basketball dust-up was between DeShawn Stevenson and LeBron James - and their rap proxies, Soulja Boy and Jay-Z.",
 }
 
 var genZDesc = {
@@ -187,7 +213,7 @@ var genZDesc = {
 	P2:"An introduction to the then-brand new app Snapchat -- listen to teens reassure adults it's not ALL about the d**k pics.",
 	P3:"Social media isn't the only place teens feel the pressure to look good. The high school hallway is also place where your look can lift you up, or bring you down.",
 	P4:"They say a picture can be worth a thousand words. But what happens when that picture is a tiny gun you sometimes use to text your friends?",
-	P5:"Meet me at the mall isn't really a thing anymore… unless you're talking about the punk music scene in Stockton, California.",
+	P5:"Meet me at the mall isn't really a thing anymore... unless you're talking about the punk music scene in Stockton, California.",
 }
 
 

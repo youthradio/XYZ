@@ -23,6 +23,9 @@ Object.values(genZIMG);
 Object.values(genXDesc);
 Object.values(genYDesc);
 Object.values(genZDesc);
+Object.values(genXLinks);
+Object.values(genYLinks);
+Object.values(genZLinks);
 Object.values(genXDate);
 Object.values(genYDate);
 Object.values(genZDate);
@@ -59,6 +62,10 @@ function pageOne() {
 	document.getElementById("genYDesc").innerHTML = genYDesc.P1;
 	document.getElementById("genZDesc").innerHTML = genZDesc.P1;
 
+	document.getElementById("genXLink").href = genXLinks.P1;
+	document.getElementById("genYLink").href = genYLinks.P1;
+	document.getElementById("genZLink").href = genZLinks.P1;
+
 	document.getElementById("genXIMG").src = genXIMG.P1;
 	document.getElementById("genYIMG").src = genYIMG.P1;
 	document.getElementById("genZIMG").src = genZIMG.P1;
@@ -90,6 +97,10 @@ function pageTwo() {
 	document.getElementById("genYDesc").innerHTML = genYDesc.P2;
 	document.getElementById("genZDesc").innerHTML = genZDesc.P2;
 
+	document.getElementById("genXLink").href = genXLinks.P2;
+	document.getElementById("genYLink").href = genYLinks.P2;
+	document.getElementById("genZLink").href = genZLinks.P2;
+
 	document.getElementById("genXIMG").src = genXIMG.P2;
 	document.getElementById("genYIMG").src = genYIMG.P2;
 	document.getElementById("genZIMG").src = genZIMG.P2;
@@ -118,6 +129,10 @@ function pageThree() {
 	document.getElementById("genXDesc").innerHTML = genXDesc.P3;
 	document.getElementById("genYDesc").innerHTML = genYDesc.P3;
 	document.getElementById("genZDesc").innerHTML = genZDesc.P3;
+
+	document.getElementById("genXLink").href = genXLinks.P3;
+	document.getElementById("genYLink").href = genYLinks.P3;
+	document.getElementById("genZLink").href = genZLinks.P3;
 
 	document.getElementById("genXIMG").src = genXIMG.P3;
 	document.getElementById("genYIMG").src = genYIMG.P3;
@@ -148,6 +163,10 @@ function pageFour() {
 	document.getElementById("genYDesc").innerHTML = genYDesc.P4;
 	document.getElementById("genZDesc").innerHTML = genZDesc.P4;
 
+	document.getElementById("genXLink").href = genXLinks.P4;
+	document.getElementById("genYLink").href = genYLinks.P4;
+	document.getElementById("genZLink").href = genZLinks.P4;
+
 	document.getElementById("genXIMG").src = genXIMG.P4;
 	document.getElementById("genYIMG").src = genYIMG.P4;
 	document.getElementById("genZIMG").src = genZIMG.P4;
@@ -176,6 +195,10 @@ function pageFive() {
 	document.getElementById("genXDesc").innerHTML = genXDesc.P5;
 	document.getElementById("genYDesc").innerHTML = genYDesc.P5;
 	document.getElementById("genZDesc").innerHTML = genZDesc.P5;
+
+		document.getElementById("genXLink").href = genXLinks.P5;
+	document.getElementById("genYLink").href = genYLinks.P5;
+	document.getElementById("genZLink").href = genZLinks.P5;
 
 	document.getElementById("genXIMG").src = genXIMG.P5;
 	document.getElementById("genYIMG").src = genYIMG.P5;

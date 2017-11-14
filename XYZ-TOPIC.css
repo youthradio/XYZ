@@ -23,7 +23,7 @@ h2{
 }
 
 audio {
-	width: 30%;
+	width: 100%;
 }
 
 body{
@@ -38,6 +38,10 @@ body{
 	border-radius:10px;
 	vertical-align:middle;
 	background-color:black;
+}
+
+.articleTitle{
+	text-transform: uppercase;
 }
 
 .stick-to-bottom-row{
@@ -192,6 +196,7 @@ body{
 
 .titleDesk{
 	display: inline;
+	font-size: 39px;
 }
 
 .titleMobile{

@@ -12,6 +12,11 @@
 	});
 }*/
 
+var surprise = [
+	pageOne, pageTwo,
+	pageThree, pageFour,
+	pageFive];
+
 $(document).ready(function() {
 	if (window.location.hash === "#politics") {
 		$(pageOne).html;
@@ -37,6 +42,11 @@ $(document).ready(function() {
 		$(pageFive).html;
 		console.log("true 5!");
 	};
+
+	if (window.location.hash === "#random") {
+		surprise[Math.floor(Math.random() * surprise.length)]();
+		console.log("randomized!");
+	}
 
 
 })

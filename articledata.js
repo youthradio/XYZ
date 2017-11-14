@@ -78,7 +78,7 @@ var genYTitles = {
 var genZTitles = {
 	P1:"Donald Trump Takes Office",
 	P2:"Snapchat Sexting?",
-	P3:"Teens Say Looks Can Be Liberating Despite Fashion Police",
+	P3:"Looks Can Be Liberating Despite Fashion Police",
 	P4:"What's The Meaning Of The Gun Emoji?",
 	P5:"Punks Are The New Mall Rats",
 }
@@ -95,18 +95,18 @@ var genXAudio = {
 
 var genYAudio = {
 	P1:"audio/yAudio/politics.mp3",
-	P2:"audio/yAudio/music.mp3",
+	P2:"audio/yAudio/tech.mp3",
 	P3:"audio/yAudio/fashion.mp3",
 	P4:"audio/yAudio/slang.mp3",
-	P5:"audio/yAudio/tech.mp3",
+	P5:"audio/yAudio/music.mp3",
 }
 
 var genZAudio = {
 	P1:"audio/zAudio/politics.mp3",
-	P2:"audio/zAudio/music.mp3",
+	P2:"audio/zAudio/tech.mp3", 
 	P3:"audio/zAudio/fashion.mp3",
 	P4:"audio/zAudio/slang.mp3",
-	P5:"audio/zAudio/tech.mp3",
+	P5:"audio/zAudio/music.mp3",
 }
 
 //Image files

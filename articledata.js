@@ -113,26 +113,26 @@ var genZAudio = {
 
 var genXIMG = {
 	P1:"img/p4.png",
-	P2:"img/new/Tech/tech1.png",
-	P3:"img/new/Fashion/Fashion1.png",
-	P4:"img/new/Slang/Slang1.png",
-	P5:"img/new/Music/music1.png",
+	P2:"img/t1.png",
+	P3:"img/f1.png",
+	P4:"img/s1.png",
+	P5:"img/m1.png",
 }
 
 var genYIMG = {
 	P1:"img/p2.png",
-	P2:"img/new/Tech/tech2.png",
-	P3:"img/new/Fashion/Fashion2.png",
-	P4:"img/new/Slang/Slang2.png",
+	P2:"img/t2.png",
+	P3:"img/f2.png",
+	P4:"img/s2.png",
 	P5:"img/m2.png",
 }
 
 var genZIMG = {
 	P1:"img/p3.png",
-	P2:"img/new/Tech/tech3.png",
-	P3:"img/new/Fashion/Fashion3.png",
-	P4:"img/new/Slang/Slang3.png",
-	P5:"img/new/Music/music3.png",
+	P2:"img/t3.png",
+	P3:"img/f3.png",
+	P4:"img/s3.png",
+	P5:"img/m3.png",
 }
 
 //Dates

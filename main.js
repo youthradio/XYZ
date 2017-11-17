@@ -224,6 +224,7 @@ var surprise = [
 
 function surpriseMe() {
 	surprise[Math.floor(Math.random() * surprise.length)]();
+	location.hash = "#" + hash;
 }
 
 //This is where all of the content gets written and overwritten on the html page through onClick functions.

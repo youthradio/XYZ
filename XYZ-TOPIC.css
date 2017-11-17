@@ -17,6 +17,11 @@ h1{
 	font-size:8vh;
 }
 
+.btn-outline-secondary{
+	background-color: transparent !important;
+	color: white;
+}
+
 h2{
 	font-size:26px;
 	font-weight:lighter;
@@ -25,6 +30,10 @@ h2{
 
 audio {
 	width: 100%;
+}
+
+.random-DT{
+	margin-top: 1px;
 }
 
 body{

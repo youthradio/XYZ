@@ -48,6 +48,10 @@ audio {
 	display: inline !important;
 }
 
+input#mce-EMAIL.email {
+	display: inline !important;
+}
+
 #mc_embed_signup_scroll{
 	background-color: #345E90 !important;
 	color: white !important;

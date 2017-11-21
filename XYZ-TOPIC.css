@@ -33,13 +33,13 @@ audio {
 }
 
 .clear{
-	color: white;
+	color: white !important;
 
 }
 
 #mc_embed_signup_scroll{
-	background-color: #345E90;
-	color: white;
+	background-color: #345E90 !important;
+	color: white !important;
 }
 
 .random-DT{

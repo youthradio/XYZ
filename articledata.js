@@ -57,6 +57,14 @@ var genZColors = {
 	P5:"#7DBC71",
 }
 
+var buttonColors = {
+	P1:"#cce589",
+	P2:"#7975e5", //technology
+	P3:"#69ecd3",
+	P4:"#b691d7",
+	P5:"#9CEA8C",
+}
+
 //Article titles
 
 var genXTitles = {

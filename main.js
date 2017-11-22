@@ -29,6 +29,7 @@ Object.values(genZLinks);
 Object.values(genXDate);
 Object.values(genYDate);
 Object.values(genZDate);
+Object.values(buttonColors);
 
 //This takes all the data from articledata.js and turns their values into arrays, letting us swap data on a page by page basis, there may be a cleaner way to do this..
 
@@ -82,6 +83,8 @@ function pageOne() {
 	document.getElementById("YYear").innerHTML = genYDate.P1;
 	document.getElementById("ZYear").innerHTML = genZDate.P1;
 
+	document.getElementById("mc-embedded-subscribe").style.backgroundColor = buttonColors.P1;
+	document.getElementById("mRandom").style.backgroundColor = buttonColors.P1;
 
 }
 
@@ -116,6 +119,9 @@ function pageTwo() {
 	document.getElementById("XYear").innerHTML = genXDate.P2;
 	document.getElementById("YYear").innerHTML = genYDate.P2;
 	document.getElementById("ZYear").innerHTML = genZDate.P2;
+
+	document.getElementById("mc-embedded-subscribe").style.backgroundColor = buttonColors.P2;
+	document.getElementById("mRandom").style.backgroundColor = buttonColors.P2;
 }
 
 function pageThree() {
@@ -149,6 +155,10 @@ function pageThree() {
 	document.getElementById("XYear").innerHTML = genXDate.P3;
 	document.getElementById("YYear").innerHTML = genYDate.P3;
 	document.getElementById("ZYear").innerHTML = genZDate.P3;
+
+	document.getElementById("mc-embedded-subscribe").style.backgroundColor = buttonColors.P3;
+	document.getElementById("mRandom").style.backgroundColor = buttonColors.P3;
+
 }
 
 function pageFour() {
@@ -182,6 +192,9 @@ function pageFour() {
 	document.getElementById("XYear").innerHTML = genXDate.P4;
 	document.getElementById("YYear").innerHTML = genYDate.P4;
 	document.getElementById("ZYear").innerHTML = genZDate.P4;
+
+	document.getElementById("mc-embedded-subscribe").style.backgroundColor = buttonColors.P4;
+	document.getElementById("mRandom").style.backgroundColor = buttonColors.P4;
 }
 
 function pageFive() {
@@ -215,6 +228,9 @@ function pageFive() {
 	document.getElementById("XYear").innerHTML = genXDate.P5;
 	document.getElementById("YYear").innerHTML = genYDate.P5;
 	document.getElementById("ZYear").innerHTML = genZDate.P5;
+
+	document.getElementById("mc-embedded-subscribe").style.backgroundColor = buttonColors.P5;
+	document.getElementById("mRandom").style.backgroundColor = buttonColors.P5;
 }
 
 var surprise = [

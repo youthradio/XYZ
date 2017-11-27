@@ -2,16 +2,68 @@
 	border: 1px solid black;
 } */
 
+p{
+	font-size: 18px;
+}
+
 a{
 	color:white;
 }
 a:hover {
-	color:pink;
+	text-decoration: none;
+	color: white;
 }
 h1{
-	font-size:10vw;
+	font-size:8vh;
 }
 
+.btn-outline-secondary{
+	background-color: transparent !important;
+	color: white;
+}
+
+h2{
+	font-size:26px;
+	font-weight:lighter;
+
+}
+
+audio {
+	width: 100%;
+}
+
+.clear{
+	color: white !important;
+
+}
+
+#mc_embed_signup form {
+    display: block !important;
+    position: relative !important;
+    text-align: center !important;
+    padding: 0 !important;
+}
+
+#mc_embed_signup input.email {
+	display: inline !important;
+}
+
+input#mce-EMAIL.email {
+	display: inline !important;
+}
+
+#mc_embed_signup_scroll{
+	background-color: #345E90 !important;
+	color: white !important;
+}
+
+#mc_embed_signup input.button{
+	display: initial !important;
+}
+
+.random-DT{
+	margin-top: 1px;
+}
 
 body{
 	background-color:#345E90;
@@ -24,17 +76,32 @@ body{
 .btn{
 	border-radius:10px;
 	vertical-align:middle;
-	background-color:black;
+}
+
+.articleTitle{
+	text-transform: uppercase;
+}
+
+.stick-to-bottom-row{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+
+.Desc {
+	padding-bottom: 23px;
 }
 
 .circle{
-	background-color:#d8d8d8;
+	/*background-color:#fff;
 	/*background-image: url(https://media.freestocktextures.com/cache/a8/de/a8ded350b50a82eed7a82b740b9e390a.jpg);*/
-	height:150px;
-	width:150px;
-	border-radius:75%;
+	height:225px;
+	width:225px;
+	border-radius:65%;
 	display:block;
 	margin:auto;
+	border: 2px solid white;
 }
 .circle2{
 	background-color:#d8d8d8;
@@ -49,13 +116,26 @@ body{
 	background-color: #E3FF99 ;
 }
 
+
+
+#A:hover{
+	background-image: url(img/Politics.gif);
+	background-size: cover; 
+}
+
 .a{
 	color: #E3FF99 ;
 }
 
 
 #B{
-	background-color: #AAFF99;
+	background-color: #7B6DE6;
+	
+}
+
+#B:hover{
+	background-image: url(img/Tech.gif);
+	background-size: cover; 
 }
 
 .b{
@@ -64,6 +144,12 @@ body{
 
 #C{
 	background-color: #00E0C4;
+	
+}
+
+#C:hover{
+	background-image: url(img/Fashion.gif);
+	background-size: cover; 
 }
 
 .c{
@@ -74,13 +160,27 @@ body{
 	background-color: #B084CC;
 }
 
+#D:hover{
+	background-image: url(img/Slang.gif);
+	background-size: cover; 
+}
+
 .d{
 	color: #B084CC;
 }
 
 #E{
-	background-color:#7B6DE6 ;
+	background-color:#AAFF99 ;
+
 }
+
+#E:hover{
+
+	background-image: url(img/Music.gif);
+	background-size: cover; 
+
+}
+
 .e{
 
 	color:#7B6DE6 ;
@@ -90,7 +190,7 @@ body{
 }
 
 .X{
-	background-color: rgba(155,155,155,0.4);
+	background-color: rgba(103, 103, 103, 0.3);
 	color:white;
 	height: 100%;
 }
@@ -135,6 +235,7 @@ body{
 
 .titleDesk{
 	display: inline;
+	font-size: 39px;
 }
 
 .titleMobile{
@@ -192,3 +293,4 @@ h5{
 	height:100%;
 }*/
 }
+

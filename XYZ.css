@@ -1,12 +1,32 @@
 /*div{
 	border: 1px solid black;
 }*/
+
+
+/* Link colors */
+.politics:hover {
+	color: #E3FF99;
+}
+
+.technology:hover {
+	color: #7B6DE6;
+}
+
+.fashion:hover {
+	color: #00E0C4;
+}
+
+.slang:hover {
+	color: #B084CC;
+}
+
+.culture:hover {
+	color: #AAFF99;
+}
+
 a{
 	color:white;
 
-}
-a:hover {
-	color:pink;
 }
 h1{
 	font-size:10vw;
@@ -22,6 +42,8 @@ body{
 .row{
 	height:100%;
 }
+
+
 .btn{
 	border-radius:10px;
 	vertical-align:middle;
@@ -30,8 +52,8 @@ body{
 .circle{
 	/*background-color:#E3FF99; */
 	/*background-image: url(https://media.freestocktextures.com/cache/a8/de/a8ded350b50a82eed7a82b740b9e390a.jpg);*/
-	height:150px;
-	width:150px;
+	height:200px;
+	width:200px;
 	border-radius:75%;
 	display:block;
 	margin:auto;
@@ -41,17 +63,76 @@ body{
 	opacity: 0.5;
 }
 
-#A{
-	background-color: #E3FF99 ;
+.a-1:hover{
+	color: #E3FF99;
 }
+
+.a-2:hover{
+	color: #AAFF99;
+}
+
+.a-3:hover{
+	color: #00E0C4;
+}
+
+.a-4:hover{
+	color: #B084CC;
+}
+
+.a-5:hover{
+	color: #7B6DE6;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
+
+
+/* #A:hover{
+	background-image: url(img/Politics.gif);
+	background-size: cover; 
+}
+
+#B:hover{
+	background-image: url(img/Tech.gif);
+	background-size: cover; 
+}
+
+#C:hover{
+	background-image: url(img/Fashion.gif);
+	background-size: cover; 
+}
+
+#D:hover{
+	background-image: url(img/Slang.gif);
+	background-size: cover; 
+}
+
+#E:hover{
+	background-image: url(img/Music.gif);
+	background-size: cover; 
+} */
 
 .a{
 	color: #E3FF99 ;
 }
 
+#A{
+
+	background-image:url(img/politicsv3.gif);
+	background-size: cover; 
+	background-color: #E3FF99 ;
+}
+
+
 
 #B{
-	background-color: #AAFF99;
+	background-color: #7B6DE6;
+	background-image: url(img/techv3.gif);
+	background-size: cover; 
+
 }
 
 .b{
@@ -60,6 +141,8 @@ body{
 
 #C{
 	background-color: #00E0C4;
+	background-image: url(img/fashionv3.gif);
+	background-size: 200px 200px; 
 }
 
 .c{
@@ -68,6 +151,8 @@ body{
 
 #D{
 	background-color: #B084CC;
+	background-image: url(img/slangv3.gif);
+	background-size: cover; 
 }
 
 .d{
@@ -75,7 +160,10 @@ body{
 }
 
 #E{
-	background-color:#7B6DE6 ;
+	background-color:#AAFF99 ;
+	background-image: url(img/musicv3.gif);
+	background-size: cover; 
+
 }
 .e{
 
@@ -110,27 +198,6 @@ body{
 		width:100%;
 
 }
-
-#A{
-	background-color: #E3FF99 ;
-}
-
-#B{
-	background-color: #AAFF99;
-}
-
-#C{
-	background-color: #00E0C4;
-}
-
-#D{
-	background-color: #B084CC;
-}
-
-#E{
-	background-color:#7B6DE6 ;
-}
-
 
 #GENXYZ{
 	font-size:20vw;

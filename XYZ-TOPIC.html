@@ -9,7 +9,6 @@
    We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<link rel="stylesheet" href="XYZ-TOPIC.css">
 		<meta name="viewport" content="width=device-width, intial-scale=1.0">
 	</head>
@@ -24,13 +23,13 @@
 
 			<div class="row d-flex justify-content-center justify-content-md-between p-2 ">
 
-				
+
 					<div>
 
 
 						 <!-- <h4>
 						<a href="index.html">Gen XYZ</a>
-						</h4> --> 
+						</h4> -->
 						<div class="d-flex justify-content-lg-center justify-content-center"> <a href="https://youthradio.org"><img  class="youthSmall img-fluid pb-5 ml-5" width="60%" height="60%" src="YR_logo.png"></a></div>
 
 						<div class="titleMobile text-center"> <h1 class="text-center">
@@ -45,23 +44,23 @@
 							</h4></a></div>
 					</div>
 					<div class="ml-1">
-						<div onclick="pageOne()" id="A" class="circle2"> </div>
+						<div id="A" class="circle2"> </div>
 					</div>
 					<div class="ml-1">
-						<div onclick="pageFive()" id="E" class="circle2"> </div>
+						<div id="B" class="circle2"> </div>
 					</div>
 					<div class="ml-1">
-						<div onclick="pageThree()" id="C" class="circle2"> </div>
+						<div id="C" class="circle2"> </div>
 					</div>
 					<div class="ml-1">
-						<div onclick="pageFour()" id="D" class="circle2"> </div>
+						<div id="D" class="circle2"> </div>
 					</div>
 					<div class="ml-1">
-						<div onclick="pageTwo()" id="B" class="circle2"> </div>
+						<div id="E" class="circle2"> </div>
 					</div>
 					<div class="ml-1 random-DT">
-						<a onclick="surpriseMe()" href="XYZ-TOPIC.html#random">
-						<button type="button" class="btn btn-outline-secondary d-none d-md-block">random</button>
+						<a href="XYZ-TOPIC.html">
+						<button id="surpriseMe" type="button" class="btn btn-outline-secondary d-none d-md-block">random</button>
 					</a>
 					</div>
 
@@ -70,12 +69,12 @@
 				</span>
 				</div>
 
-				
+
 
 				<div class="d-flex justify-content-sm-end "> <a href="https://youthradio.org"><img  class="youthDesk" src="YR_logo.png"></a></div>
 
 			</div>
-				
+
 			<!--Topic-->
 			<div class="row">
 				<div class="col-md-8 col-12">
@@ -84,7 +83,7 @@
 					 </div>
 				<div class="col-md-4 col-12"> </div>
 
-				
+
 			</div>
 			<!--Stories-->
 			<div class="row">
@@ -92,13 +91,13 @@
 					<div class=" my-3">
 						<img id="genXIMG" class="circle" src=""></img></div>
 
-					
+
 					<div class="text-center">
 						<a id="genXLink"><h4 class="" id="genXtitle"></h4></a>
 						<audio id="audioX" controls></audio>
 					</div>
 					<p id="genXDesc" class="Desc pb-sm-5"></p>
-					
+
 					<div class="row stick-to-bottom-row">
 						<div class="col-12 X">
 						<h5 class="pt-1 genTitle">Gen X <span class="float-right" id="XYear"></span></h5>
@@ -139,18 +138,18 @@
 				<!--Bottom-->
 				 <!-- <div class="row  " height="350px">
 					<br>
-					 <span style="color:#d8d8d8"> hey </span>  
+					 <span style="color:#d8d8d8"> hey </span>
 					<br>
 				</div> -->
-			</div>	
+			</div>
 
 			<span class="row p-2"></span>
 
 		<div style="" class=" text-center">
 
 			<div class="row text-center">
-						
-	
+
+
 					</div>
 
 
@@ -181,17 +180,17 @@
 						</form>
 						</div>
 				      <span class="input-group-btn">
-				        
+
 				      </span>
 				    </div>
 				  </div>
-				  
+
 				</div>
 
 				<div class="row">
-				  
+
 				  <div class="col-4 col-md-3">
-				   
+
 				  </div>
 				</div>
 
@@ -202,11 +201,11 @@
 		</div>
 
 		<!--JS files, their placement is important! -->
-		
-		
-		<script src="articledata.js"></script>
-		<script src="main.js"></script>
-		<script src="redirect.js"></script>
 
+		<script src="libs/papaparse.min.js"></script>
+		<script src="libs/jquery-3.2.1.min.js"></script>
+		<script src="articledata.js"></script>
+		<script src="redirect.js"></script>
+		<script src="libs/scripts.js"></script>
 	</body>
 </html>

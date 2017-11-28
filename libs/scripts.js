@@ -15,7 +15,6 @@ function initParser() {
     });
   };
   this.renderData = function(hash) {
-    // console.log(topics[hash]);
     renderFields(topics[hash]);
   };
   this.getData = function() {
@@ -42,30 +41,42 @@ var csvParser = new initParser();
 csvParser.loadData();
 
 
-$('#A').on('click', function (e) {
-  csvParser.renderData("#politics");
+document.getElementById('A').addEventListener("click", function() {
   window.location = "#politics";
+  csvParser.renderData("#politics");
+
 })
-$('#B').on('click', function (e) {
-  csvParser.renderData("#fashion");
+document.getElementById('B').addEventListener("click", function() {
   window.location = "#fashion";
-})
-$('#C').on('click', function (e) {
-  csvParser.renderData("#slang");
+  csvParser.renderData("#fashion");
+
+});
+document.getElementById('C').addEventListener("click", function() {
   window.location = "#slang";
+  csvParser.renderData("#slang");
 })
-$('#D').on('click', function (e) {
-  csvParser.renderData("#culture");
-  window.location = "#culture";
+document.getElementById('D').addEventListener("click", function() {
+  window.location = "#music";
+  csvParser.renderData("#music");
+
 })
-$('#E').on('click', function (e) {
-  csvParser.renderData("#technology");
+document.getElementById('E').addEventListener("click", function() {
   window.location = "#technology";
+  csvParser.renderData("#technology");
+
 })
+Array.from(document.getElementsByClassName('surpriseMe')).forEach(function (e){
+    e.addEventListener("click", function() {
+    var topics = Object.keys(csvParser.getData());
+    var randomTopic = topics[Math.floor(Math.random() * topics.length)];
+    window.location = randomTopic;
+    csvParser.renderData(randomTopic);
+  });
+});
+
 
 
 function renderFields(topicData) {
-
 	document.getElementById("topic").innerHTML = topicData["topic"][0].toLocaleUpperCase() + topicData["topic"].slice(1);
 	document.getElementById("description").innerHTML = topicData["topic description"];
 	document.getElementById("genXtitle").innerHTML = topicData["X story title"];  
@@ -80,13 +91,13 @@ function renderFields(topicData) {
 	document.getElementById("genYLink").href = topicData["Y link"];
 	document.getElementById("genZLink").href = topicData["Z link"];
 
-	document.getElementById("genXIMG").src = genXIMG.P1;
-	document.getElementById("genYIMG").src = genYIMG.P1;
-	document.getElementById("genZIMG").src = genZIMG.P1;
+	// document.getElementById("genXIMG").src = genXIMG.P1;
+	// document.getElementById("genYIMG").src = genYIMG.P1;
+	// document.getElementById("genZIMG").src = genZIMG.P1;
 
-	document.getElementById("audioX").src = genXAudio.P1;
-	document.getElementById("audioY").src = genYAudio.P1;
-	document.getElementById("audioZ").src = genZAudio.P1;
+	// document.getElementById("audioX").src = genXAudio.P1;
+	// document.getElementById("audioY").src = genYAudio.P1;
+	// document.getElementById("audioZ").src = genZAudio.P1;
 
 	document.getElementById("storyA").style.backgroundColor = topicData["X bg color"]; 
 	document.getElementById("storyB").style.backgroundColor = topicData["Y bg color"]; 
@@ -96,7 +107,7 @@ function renderFields(topicData) {
 	document.getElementById("YYear").innerHTML = topicData["Y story year"];
 	document.getElementById("ZYear").innerHTML = topicData["Z story year"];
 
-	document.getElementById("mc-embedded-subscribe").style.backgroundColor = buttonColors.P1;
-	document.getElementById("mRandom").style.backgroundColor = buttonColors.P1;
+	// document.getElementById("mc-embedded-subscribe").style.backgroundColor = buttonColors.P1;
+	// document.getElementById("mRandom").style.backgroundColor = buttonColors.P1;
 
 }

@@ -96,6 +96,7 @@ function pageOne() {
 
 	document.getElementById("mc-embedded-subscribe").style.backgroundColor = buttonColors.P1;
 	document.getElementById("mRandom").style.borderColor = buttonColors.P1;
+	document.getElementById("mRandom").style.color = buttonColors.P1;
 
 }
 
@@ -137,6 +138,7 @@ function pageTwo() {
 
 	document.getElementById("mc-embedded-subscribe").style.backgroundColor = buttonColors.P2;
 	document.getElementById("mRandom").style.borderColor = buttonColors.P2;
+	document.getElementById("mRandom").style.color = buttonColors.P2;
 	
 }
 
@@ -178,6 +180,7 @@ function pageThree() {
 
 	document.getElementById("mc-embedded-subscribe").style.backgroundColor = buttonColors.P3;
 	document.getElementById("mRandom").style.borderColor = buttonColors.P3;
+	document.getElementById("mRandom").style.color = buttonColors.P3;
 
 }
 
@@ -219,6 +222,7 @@ function pageFour() {
 
 	document.getElementById("mc-embedded-subscribe").style.backgroundColor = buttonColors.P4;
 	document.getElementById("mRandom").style.borderColor = buttonColors.P4;
+	document.getElementById("mRandom").style.color = buttonColors.P4;
 }
 
 function pageFive() {
@@ -260,6 +264,7 @@ function pageFive() {
 	document.getElementById("mc-embedded-subscribe").style.backgroundColor = buttonColors.P5;
 
 	document.getElementById("mRandom").style.borderColor = buttonColors.P5;
+	document.getElementById("mRandom").style.color = buttonColors.P5;
 	
 }
 

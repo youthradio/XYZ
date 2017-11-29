@@ -14,6 +14,9 @@ Object.values(genZColors);
 Object.values(genXTitles);
 Object.values(genYTitles);
 Object.values(genZTitles);
+Object.values(genXauthors);
+Object.values(genYauthors);
+Object.values(genZauthors);
 Object.values(genXAudio);
 Object.values(genYAudio);
 Object.values(genZAudio);
@@ -59,6 +62,14 @@ function pageOne() {
 	document.getElementById("genYtitle").innerHTML = genYTitles.P1;
 	document.getElementById("genZtitle").innerHTML = genZTitles.P1;
 
+	document.getElementById("genXtitle").innerHTML = genXTitles.P1;
+	document.getElementById("genYtitle").innerHTML = genYTitles.P1;
+	document.getElementById("genZtitle").innerHTML = genZTitles.P1;
+
+	document.getElementById("genXauthor").innerHTML = genXauthors.P1;
+	document.getElementById("genYauthor").innerHTML = genYauthors.P1;
+	document.getElementById("genZauthor").innerHTML = genZauthors.P1;
+
 	document.getElementById("genXDesc").innerHTML = genXDesc.P1;
 	document.getElementById("genYDesc").innerHTML = genYDesc.P1;
 	document.getElementById("genZDesc").innerHTML = genZDesc.P1;
@@ -84,7 +95,7 @@ function pageOne() {
 	document.getElementById("ZYear").innerHTML = genZDate.P1;
 
 	document.getElementById("mc-embedded-subscribe").style.backgroundColor = buttonColors.P1;
-	document.getElementById("mRandom").style.backgroundColor = buttonColors.P1;
+	document.getElementById("mRandom").style.borderColor = buttonColors.P1;
 
 }
 
@@ -95,6 +106,10 @@ function pageTwo() {
 	document.getElementById("genXtitle").innerHTML = genXTitles.P2;
 	document.getElementById("genYtitle").innerHTML = genYTitles.P2;
 	document.getElementById("genZtitle").innerHTML = genZTitles.P2;
+
+	document.getElementById("genXauthor").innerHTML = genXauthors.P2;
+	document.getElementById("genYauthor").innerHTML = genYauthors.P2;
+	document.getElementById("genZauthor").innerHTML = genZauthors.P2;
 
 	document.getElementById("genXDesc").innerHTML = genXDesc.P2;
 	document.getElementById("genYDesc").innerHTML = genYDesc.P2;
@@ -121,7 +136,8 @@ function pageTwo() {
 	document.getElementById("ZYear").innerHTML = genZDate.P2;
 
 	document.getElementById("mc-embedded-subscribe").style.backgroundColor = buttonColors.P2;
-	document.getElementById("mRandom").style.backgroundColor = buttonColors.P2;
+	document.getElementById("mRandom").style.borderColor = buttonColors.P2;
+	
 }
 
 function pageThree() {
@@ -131,6 +147,10 @@ function pageThree() {
 	document.getElementById("genXtitle").innerHTML = genXTitles.P3;
 	document.getElementById("genYtitle").innerHTML = genYTitles.P3;
 	document.getElementById("genZtitle").innerHTML = genZTitles.P3;
+
+	document.getElementById("genXauthor").innerHTML = genXauthors.P3;
+	document.getElementById("genYauthor").innerHTML = genYauthors.P3;
+	document.getElementById("genZauthor").innerHTML = genZauthors.P3;
 
 	document.getElementById("genXDesc").innerHTML = genXDesc.P3;
 	document.getElementById("genYDesc").innerHTML = genYDesc.P3;
@@ -157,7 +177,7 @@ function pageThree() {
 	document.getElementById("ZYear").innerHTML = genZDate.P3;
 
 	document.getElementById("mc-embedded-subscribe").style.backgroundColor = buttonColors.P3;
-	document.getElementById("mRandom").style.backgroundColor = buttonColors.P3;
+	document.getElementById("mRandom").style.borderColor = buttonColors.P3;
 
 }
 
@@ -168,6 +188,10 @@ function pageFour() {
 	document.getElementById("genXtitle").innerHTML = genXTitles.P4;
 	document.getElementById("genYtitle").innerHTML = genYTitles.P4;
 	document.getElementById("genZtitle").innerHTML = genZTitles.P4;
+
+	document.getElementById("genXauthor").innerHTML = genXauthors.P4;
+	document.getElementById("genYauthor").innerHTML = genYauthors.P4;
+	document.getElementById("genZauthor").innerHTML = genZauthors.P4;
 
 	document.getElementById("genXDesc").innerHTML = genXDesc.P4;
 	document.getElementById("genYDesc").innerHTML = genYDesc.P4;
@@ -194,7 +218,7 @@ function pageFour() {
 	document.getElementById("ZYear").innerHTML = genZDate.P4;
 
 	document.getElementById("mc-embedded-subscribe").style.backgroundColor = buttonColors.P4;
-	document.getElementById("mRandom").style.backgroundColor = buttonColors.P4;
+	document.getElementById("mRandom").style.borderColor = buttonColors.P4;
 }
 
 function pageFive() {
@@ -204,6 +228,10 @@ function pageFive() {
 	document.getElementById("genXtitle").innerHTML = genXTitles.P5;
 	document.getElementById("genYtitle").innerHTML = genYTitles.P5;
 	document.getElementById("genZtitle").innerHTML = genZTitles.P5;
+
+	document.getElementById("genXauthor").innerHTML = genXauthors.P5;
+	document.getElementById("genYauthor").innerHTML = genYauthors.P5;
+	document.getElementById("genZauthor").innerHTML = genZauthors.P5;
 
 	document.getElementById("genXDesc").innerHTML = genXDesc.P5;
 	document.getElementById("genYDesc").innerHTML = genYDesc.P5;
@@ -230,7 +258,9 @@ function pageFive() {
 	document.getElementById("ZYear").innerHTML = genZDate.P5;
 
 	document.getElementById("mc-embedded-subscribe").style.backgroundColor = buttonColors.P5;
-	document.getElementById("mRandom").style.backgroundColor = buttonColors.P5;
+
+	document.getElementById("mRandom").style.borderColor = buttonColors.P5;
+	
 }
 
 var surprise = [
@@ -240,7 +270,8 @@ var surprise = [
 
 function surpriseMe() {
 	surprise[Math.floor(Math.random() * surprise.length)]();
-	location.hash = "#" + hash;
+	window.scrollTo(0,0);
+
 }
 
 //This is where all of the content gets written and overwritten on the html page through onClick functions.

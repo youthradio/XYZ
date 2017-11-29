@@ -69,14 +69,14 @@ var buttonColors = {
 
 var genXTitles = {
 	P1:"Punks For Bush",
-	P2:"A Video Game Addict Reviews The Sega Dreamcast",
+	P2:"Review: The Sega Dreamcast",
 	P3:"Lose The Levis",
 	P4:"Slang Predictions For The Future",
 	P5:"Wanna Be An MTV VJ?",
 }
 
 var genYTitles = {
-	P1:"Hope Is The New Rebellion",
+	P1:"Hope Out Of The Box",
 	P2:"Public Is The New Private",
 	P3:"Mismatching Is The New Matching",
 	P4:"The N-word: Slang Or Disrespect?",
@@ -89,6 +89,32 @@ var genZTitles = {
 	P3:"Looks Can Be Liberating Despite Fashion Police",
 	P4:"What's The Meaning Of The Gun Emoji?",
 	P5:"Punks Are The New Mall Rats",
+}
+
+//Article authors
+
+var genXauthors = {
+	P1:"Enrique Rivera",
+	P2:"Ocie Henderson",
+	P3:"Belia Mayeno Saavedra",
+	P4:"Sanovia Jackson",
+	P5:"Anita Johnson",
+}
+
+var genYauthors = {
+	P1:"Orlando Campbell",
+	P2:"Lauren Silverman",
+	P3:"King Anyi Howell",
+	P4:"Pendarvis Harshaw, Ayesha Walker, Alana Germany",
+	P5:"Brandon McFarland",
+}
+
+var genZauthors = {
+	P1:"Natalie Bettendorf",
+	P2:"Sunday Simon",
+	P3:"Scott Lao",
+	P4:"Tylyn Hardamon",
+	P5:"Rafael Johns",
 }
 
 //Audio files
@@ -181,7 +207,7 @@ var genXLinks = {
 }
 
 var genYLinks = {
-	P1:"https://www.npr.org/templates/story/story.php?storyId=94066853",
+	P1:"https://www.npr.org/templates/story/story.php?storyId=96805483",
 	P2:"http://www.npr.org/templates/story/story.php?storyId=93374338",
 	P3:"https://www.npr.org/templates/story/story.php?storyId=90907618",
 	P4:"http://www.npr.org/templates/story/story.php?storyId=11155621",
@@ -209,7 +235,7 @@ var genXDesc = {
 }
 
 var genYDesc = {
-	P1:"Back in  2008, Senator Barack Obama was a Presidential hopeful running a fresh campaign based on hope. Hear young people at the Democratic National Convention react to that promise.",
+	P1:"'Yes, we can.' Barack Obama became the first black President of the United States on a campaign of 'hope'. Right after his election, teens reflect on how hope can be both a positive and a negative force in their lives.",
 	P2:"The teen trend in 2008? Moving from email to Facebook wall posts. From the early days of social media receipts.",
 	P3:"Forget matching your shirt color with your shoe hue. In 2008, it was all about knee-high rainbow socks and candy-colored hair extension.",
 	P4:"In 2007, NPR asked a bunch of people to weigh in on the n-word -- including this group of Bay Area teens.",

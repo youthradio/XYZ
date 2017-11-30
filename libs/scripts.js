@@ -69,6 +69,7 @@ Array.from(document.getElementsByClassName('surpriseMe')).forEach(function (e){
     e.addEventListener("click", function() {
     var topics = Object.keys(csvParser.getData());
     var randomTopic = topics[Math.floor(Math.random() * topics.length)];
+    window.location = randomTopic;
     csvParser.renderData(randomTopic);
   });
 });

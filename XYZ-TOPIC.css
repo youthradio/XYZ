@@ -1,0 +1,307 @@
+/* div{
+	border: 1px solid black;
+} */
+
+p {
+    font-size: 18px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    font-size: 8vh;
+}
+
+.btn-outline-secondary {
+    border-width: 5px;
+    border-radius: 10px;
+    vertical-align: middle;
+    color: white;
+}
+
+.btn-outline-secondary:hover{
+	background-color: #345E90;
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: lighter;
+}
+
+audio {
+    width: 100%;
+}
+
+.clear {
+    color: white !important;
+}
+
+#mc_embed_signup form {
+    display: block !important;
+    position: relative !important;
+    text-align: center !important;
+    padding: 0 !important;
+}
+
+#mc_embed_signup input.email {
+    display: inline !important;
+}
+
+input#mce-EMAIL.email {
+    display: inline !important;
+}
+
+#mc_embed_signup_scroll {
+    background-color: #345E90 !important;
+    color: white !important;
+}
+
+#mc_embed_signup input.button {
+    display: initial !important;
+}
+
+.random-DT {
+    margin-top: 1px;
+}
+
+body {
+    background-color: #345E90;
+    color: white;
+}
+
+
+/* .row{
+	height:100%;
+} */
+
+.btn {}
+
+.articleTitle {
+    text-transform: uppercase;
+}
+
+.stick-to-bottom-row {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.Desc {
+    padding-bottom: 23px;
+}
+
+.circle {
+    /*background-color:#fff;
+	/*background-image: url(https://media.freestocktextures.com/cache/a8/de/a8ded350b50a82eed7a82b740b9e390a.jpg);*/
+    height: 225px;
+    width: 225px;
+    border-radius: 65%;
+    display: block;
+    margin: auto;
+    border: 2px solid white;
+}
+
+.circle2 {
+    background-color: #d8d8d8;
+    /*background-image: url(https://media.freestocktextures.com/cache/a8/de/a8ded350b50a82eed7a82b740b9e390a.jpg);*/
+    height: 40px;
+    width: 40px;
+    border-radius: 75%;
+
+    margin: auto;
+}
+
+#A {
+    background-color: #E3FF99;
+}
+
+
+
+#A:hover {
+    background-image: url(../img/politicsv3.gif);
+    background-size: cover;
+}
+
+.a {
+    color: #E3FF99;
+}
+
+
+#B {
+    background-color: #7B6DE6;
+}
+
+#B:hover {
+    background-image: url(img/techv3.gif);
+    background-size: cover;
+}
+
+.b {
+    color: #AAFF99;
+}
+
+#C {
+    background-color: #00E0C4;
+}
+
+#C:hover {
+    background-image: url(img/fashionv3.gif);
+    background-size: cover;
+}
+
+.c {
+    color: #00E0C4;
+}
+
+#D {
+    background-color: #B084CC;
+}
+
+#D:hover {
+    background-image: url(img/slangv3.gif);
+    background-size: cover;
+}
+
+.d {
+    color: #B084CC;
+}
+
+#E {
+    background-color: #AAFF99;
+}
+
+#E:hover {
+
+    background-image: url(img/musicv3.gif);
+    background-size: cover;
+}
+
+.e {
+
+    color: #7B6DE6;
+}
+
+#genX {
+    background-color: #e0af95;
+}
+
+.X {
+    background-color: rgba(103, 103, 103, 0.3);
+    color: white;
+    height: 100%;
+}
+
+#genY {
+    background-color: #dd9d7b;
+}
+
+#genZ {
+    background-color: #e58958;
+}
+
+
+.bottom {
+    height: 25px;
+    /*background-color:black;*/
+}
+
+.stories {
+    height: 50px;
+}
+
+#storyA {
+    background-color: #00E0C4;
+}
+
+#storyB {
+    background-color: #00D3Ba;
+}
+
+#storyC {
+    background-color: #12c0ac;
+}
+
+#annoying {
+    display: none;
+}
+
+.youthDesk {
+    display: inherit;
+}
+
+.youthSmall {
+    display: none;
+}
+
+.titleDesk {
+    display: inline;
+    font-size: 39px;
+}
+
+.titleMobile {
+    display: none;
+}
+
+@media(max-width:768px) {
+
+    .youthDesk {
+        display: none;
+    }
+
+    .youthSmall {
+        display: inline;
+    }
+
+    .titleDesk {
+        display: none;
+    }
+
+    .titleMobile {
+        display: inline;
+    }
+
+    #storyA #storyB #storyC {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    #GENXYZ #yr_logo {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    #GENXYZ {
+        font-size: 20vw;
+    }
+    h5 {
+        font-size: 5vw;
+    }
+    /*.circle{
+	visibility:hidden;
+	height:150px;
+	width:150px;
+	border-radius:75%;
+	display:none;
+	margin:auto;*/
+}
+
+.circle2 {
+    float: center;
+}
+
+
+/*.img-fluid{
+	width:50%;
+	height:100%;
+}*/
+
+
+}

@@ -3,6 +3,24 @@
 	<head>
 		<title>GENXYZ Topic</title>
 		<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+  <script>
+ (function(b, o, i, l, e, r) {
+ b.GoogleAnalyticsObject = l;
+ b[l] || (b[l] =
+  function() {
+ (b[l].q = b[l].q || []).push(arguments)
+  });
+ b[l].l = +new Date;
+  e = o.createElement(i);
+ r = o.getElementsByTagName(i)[0];
+ e.src = '//www.google-analytics.com/analytics.js';
+ r.parentNode.insertBefore(e, r)
+ }(window, document, 'script', 'ga'));
+ ga('create', 'UA-6029148-1', 'auto');
+ ga('send', 'pageview');
+ </script> 
+
 		<style type="text/css">
 		#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
 		/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
@@ -133,7 +151,7 @@
 	</div>
 	<div class="row text-center d-flex justify-content-center m-2">
 		<div class="mb-4">
-			<a onclick="surpriseMe()" href="XYZ-TOPIC.html#random">
+			<a id="surpriseMe" href="XYZ-TOPIC.html#random">
 				<button id="mRandom" type="button" class="btn btn-outline-secondary  d-md-none d-block">Surprise Me!</button>
 			</a>
 		</div>

@@ -92,27 +92,27 @@ a:hover {
 
 /* #A:hover{
 	background-image: url(img/Politics.gif);
-	background-size: cover; 
+	background-size: cover;
 }
 
 #B:hover{
 	background-image: url(img/Tech.gif);
-	background-size: cover; 
+	background-size: cover;
 }
 
 #C:hover{
 	background-image: url(img/Fashion.gif);
-	background-size: cover; 
+	background-size: cover;
 }
 
 #D:hover{
 	background-image: url(img/Slang.gif);
-	background-size: cover; 
+	background-size: cover;
 }
 
 #E:hover{
 	background-image: url(img/Music.gif);
-	background-size: cover; 
+	background-size: cover;
 } */
 
 .a{
@@ -121,8 +121,8 @@ a:hover {
 
 #A{
 
-	background-image:url(img/politicsv3.gif);
-	background-size: cover; 
+	background-image:url(../img/politicsv3.gif);
+	background-size: cover;
 	background-color: #E3FF99 ;
 }
 
@@ -130,8 +130,8 @@ a:hover {
 
 #B{
 	background-color: #7B6DE6;
-	background-image: url(img/techv3.gif);
-	background-size: cover; 
+	background-image: url(../img/techv3.gif);
+	background-size: cover;
 
 }
 
@@ -141,8 +141,8 @@ a:hover {
 
 #C{
 	background-color: #00E0C4;
-	background-image: url(img/fashionv3.gif);
-	background-size: 200px 200px; 
+	background-image: url(../img/fashionv3.gif);
+	background-size: 200px 200px;
 }
 
 .c{
@@ -151,8 +151,8 @@ a:hover {
 
 #D{
 	background-color: #B084CC;
-	background-image: url(img/slangv3.gif);
-	background-size: cover; 
+	background-image: url(../img/slangv3.gif);
+	background-size: cover;
 }
 
 .d{
@@ -161,8 +161,8 @@ a:hover {
 
 #E{
 	background-color:#AAFF99 ;
-	background-image: url(img/musicv3.gif);
-	background-size: cover; 
+	background-image: url(../img/musicv3.gif);
+	background-size: cover;
 
 }
 .e{
@@ -192,7 +192,7 @@ a:hover {
 
 @media(max-width:768px){
 
-#A #B #C #D #E{ 
+#A #B #C #D #E{
 		display:block;
 		float:none;
 		width:100%;

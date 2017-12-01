@@ -69,20 +69,14 @@ document.getElementById('E').addEventListener("click", function() {
 
 
 
-document.getElementById('surpriseMe').addEventListener("click", function() {
-    console.log("random logged");
-    window.location = randomTopic;
-    csvParser = renderData(randomTopic);
-});
-
-/* Array.from(document.getElementByClassName('surpriseMe')).forEach(function(e) {
+Array.from(document.getElementByClassName('surpriseMe')).forEach(function(e) {
     e.addEventListener("click", function() {
         var topics = Object.keys(csvParser.getData());
         var randomTopic = topics[Math.floor(Math.random() * topics.length)];
         window.location = randomTopic;
         csvParser.renderData(randomTopic);
     });
-});*/
+});
 
 
 

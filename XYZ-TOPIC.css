@@ -140,7 +140,7 @@ body {
 }
 
 #B:hover {
-    background-image: url(img/techv3.gif);
+    background-image: url(../img/techv3.gif);
     background-size: cover;
 }
 
@@ -153,7 +153,7 @@ body {
 }
 
 #C:hover {
-    background-image: url(img/fashionv3.gif);
+    background-image: url(../img/fashionv3.gif);
     background-size: cover;
 }
 
@@ -166,7 +166,7 @@ body {
 }
 
 #D:hover {
-    background-image: url(img/slangv3.gif);
+    background-image: url(../img/slangv3.gif);
     background-size: cover;
 }
 
@@ -180,7 +180,7 @@ body {
 
 #E:hover {
 
-    background-image: url(img/musicv3.gif);
+    background-image: url(../img/musicv3.gif);
     background-size: cover;
 }
 

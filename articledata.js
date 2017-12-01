@@ -245,7 +245,7 @@ var genYDesc = {
 var genZDesc = {
 	P1:"In a stunning political upset, Donald J.Trump became President #45 -- with many liberals still asking, 'What just happened?'",
 	P2:"An introduction to the then-brand new app Snapchat -- listen to teens reassure adults it's not ALL about the d**k pics.",
-	P3:"Social media isn't the only place teens feel the pressure to look good. The high school hallway is also place where your look can lift you up, or bring you down.",
+	P3:"Social media isn't the only place teens feel the pressure to look good. The high school hallway is also a place where your look can lift you up, or bring you down.",
 	P4:"They say a picture can be worth a thousand words. But what happens when that picture is a tiny gun you sometimes use to text your friends?",
 	P5:"Meet me at the mall isn't really a thing anymore... unless you're talking about the punk music scene in Stockton, California.",
 }

@@ -86,7 +86,7 @@ var genYTitles = {
 var genZTitles = {
 	P1:"Donald Trump Takes Office",
 	P2:"Snapchat Sexting?",
-	P3:"Looks Can Be Liberating Despite Fashion Police",
+	P3:"Dress Code Politics",
 	P4:"What's The Meaning Of The Gun Emoji?",
 	P5:"Punks Are The New Mall Rats",
 }
@@ -112,7 +112,7 @@ var genYauthors = {
 var genZauthors = {
 	P1:"Natalie Bettendorf",
 	P2:"Sunday Simon",
-	P3:"Scott Lao",
+	P3:"Stella Lau",
 	P4:"Tylyn Hardamon",
 	P5:"Rafael Johns",
 }
@@ -191,7 +191,7 @@ var genYDate = {
 var genZDate = {
 	P1:"2017",
 	P2:"2013",
-	P3:"2014",
+	P3:"2016",
 	P4:"2015",
 	P5:"2014",
 }
@@ -217,7 +217,7 @@ var genYLinks = {
 var genZLinks = {
 	P1:"https://youthradio.org/journalism/podcasts/youth-radio-podcast-donald-trump-takes-office/",
 	P2:"https://youthradio.org/journalism/science/how-young-people-are-really-using-snapchat/",
-	P3:"https://youthradio.org/journalism/education/teens-say-looks-can-be-liberating-despite-fashion-police/",
+	P3:"https://youthradio.org/journalism/education/teen-girls-flip-the-script-on-social-media/",
 	P4:"https://youthradio.org/journalism/education/teens-use-the-gun-emoji-despite-potential-for-misunderstanding/",
 	P5:"http://www.npr.org/2014/08/13/338828404/in-stockton-calif-punks-are-the-new-mall-rats",
 }
@@ -228,9 +228,9 @@ var genZLinks = {
 
 var genXDesc = {
 	P1:"Who says conservatives can't be inclusive? At the 2004 Republican convention in NYC, Youth Radio found some punks with an appreciation for George W. himself.",
-	P2:"Its a step up from the N64, but will the Sega Dreamcast video game console last the test of time? This gamer review takes you back to simpler times.",
+	P2:"It was a step up from the N64, but did the Sega Dreamcast video game console pass the test of time? This gamer review takes you back to a simpler era.",
 	P3:" <i>It's all about that button fly.</i> And according to one '90s teen, this classic jean brand was simply past its prime.",
-	P4:"High Schooler Sanovia Jackson rang in 2004 by talking with NPR host Melissa Block what slang phrases were in and out the new year.",
+	P4:"High Schooler Sanovia Jackson rang in 2004 by talking with NPR host Melissa Block what slang phrases were in and out.",
 	P5:"MTV was at the height of fashion and music... for the '90s. Youth Radio listened in on an MTV VJ audition in 1999.",
 }
 
@@ -245,7 +245,7 @@ var genYDesc = {
 var genZDesc = {
 	P1:"In a stunning political upset, Donald J.Trump became President #45 -- with many liberals still asking, 'What just happened?'",
 	P2:"An introduction to the then-brand new app Snapchat -- listen to teens reassure adults it's not ALL about the d**k pics.",
-	P3:"Social media isn't the only place teens feel the pressure to look good. The high school hallway is also a place where your look can lift you up, or bring you down.",
+	P3:"Teenagers have been fighting gender bias in dress code policies forever, but Gen Zers? They're doing it on Twitter.",
 	P4:"They say a picture can be worth a thousand words. But what happens when that picture is a tiny gun you sometimes use to text your friends?",
 	P5:"Meet me at the mall isn't really a thing anymore... unless you're talking about the punk music scene in Stockton, California.",
 }

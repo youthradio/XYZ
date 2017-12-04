@@ -121,7 +121,7 @@ a:hover {
 
 #A{
 
-	background-image:url(img/politicsv3.gif);
+	background-image:url(img/politics.gif);
 	background-size: cover; 
 	background-color: #E3FF99 ;
 }
@@ -130,7 +130,7 @@ a:hover {
 
 #B{
 	background-color: #7B6DE6;
-	background-image: url(img/techv3.gif);
+	background-image: url(img/tech.gif);
 	background-size: cover; 
 
 }
@@ -141,7 +141,7 @@ a:hover {
 
 #C{
 	background-color: #00E0C4;
-	background-image: url(img/fashionv3.gif);
+	background-image: url(img/fashion.gif);
 	background-size: 200px 200px; 
 }
 
@@ -151,7 +151,7 @@ a:hover {
 
 #D{
 	background-color: #B084CC;
-	background-image: url(img/slangv3.gif);
+	background-image: url(img/slang.gif);
 	background-size: cover; 
 }
 

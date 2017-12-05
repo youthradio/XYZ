@@ -120,10 +120,10 @@ var genZauthors = {
 //Audio files
 
 var genXAudio = {
-	P1:"audio/xAudio/slang.mp3", //RENAME ASAP!!
+	P1:"audio/xAudio/politics.mp3", //RENAME ASAP!!
 	P2:"audio/xAudio/tech.mp3",  //RENAME ASAP!!
 	P3:"audio/xAudio/fashion.mp3",
-	P4:"audio/xAudio/politics.mp3",
+	P4:"audio/xAudio/slang.mp3",
 	P5:"audio/xAudio/music.mp3", //RENAME ASAP!!
 }
 

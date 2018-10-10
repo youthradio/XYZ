@@ -1,3 +1,35 @@
+body {
+  padding-top: 81px;
+}
+
+header.yr-fixed-header {
+  position: fixed;
+  z-index: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0 32px;
+  height: 81px;
+  background-color: #2E2E2E;
+}
+
+header.yr-fixed-header .logo a {
+  display: block;
+  outline: 0;
+  width: 40px;
+  height: 40px;
+}
+
+header.yr-fixed-header .search a {
+  display: block;
+  outline: 0;
+  width: 29px;
+  height: 29px;
+}
+
 /* div{
 	border: 1px solid black;
 } */
